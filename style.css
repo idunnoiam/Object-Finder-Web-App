@@ -1,0 +1,80 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h4 {
+    border-radius: 7px;
+    padding: 7px;
+    background-color: white;
+    float: center;
+    width: 125;
+    box-shadow: 7px 7px 7px grey;
+    font-family: 'Acme', sans-serif;
+}
+
+h4:hover {
+    border-radius: 7px;
+    padding: 7px;
+    background-color: rgb(195, 192, 192);
+    float: center;
+    width: 125;
+    box-shadow: 7px 7px 7px grey;
+    font-family: 'Acme', sans-serif;
+}
+
+input {
+    font-size: 20px;
+    border-radius: 7px;
+    box-shadow: 7px 7px 7px grey;
+    width: 300;
+    font-family: 'Acme', sans-serif;
+}
+
+input:hover {
+    font-size: 20px;
+    background-color: rgb(218, 217, 217);
+    border-radius: 7px;
+    box-shadow: 7px 7px 7px grey;
+    width: 300;
+    font-family: 'Acme', sans-serif;
+}
+
+button {
+    box-shadow: 7px 7px 7px green;
+    font-family: 'Acme', sans-serif;
+}
+
+#status,
+#number_of_objects,
+#start {
+    font-size: 18px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: grey;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    line-height: 3;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+}
+
+div:hover {
+    background-color: rgb(205, 204, 204);
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 10px 10px 10px white;
+}
