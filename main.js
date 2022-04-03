@@ -1,4 +1,9 @@
-function preload() {}
+status = "";
+objects = [];
+
+function preload() {
+
+}
 
 
 function setup() {
@@ -12,4 +17,18 @@ function setup() {
 
 function draw() {
     image(video, 0, 0, 380, 380);
+}
+
+function start() {
+    objectDetector = ml5.objectDetector('cocossd', modelLoaded);
+    document.getElementById("status").innerHTML = "Status : Detecting Objects";
+    object = document.getElementById("ID_Of_The_Input_Box").ariaValueMax;
+}
+
+function modelLoaded() {
+    console.log("Model Loaded")
+    status = true;
+    video.loop();
+    video.speed(1);
+    video.volume(0);
 }
